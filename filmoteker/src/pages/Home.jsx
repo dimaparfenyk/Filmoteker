@@ -1,8 +1,10 @@
+import { MovieList } from "../components/MovieList";
+
 export const Home = () => {
   return (
     <div>
       <h2>Home</h2>
-      <p>Добро пожаловать на главную страницу!</p>
+      <MovieList />
     </div>
   );
 };

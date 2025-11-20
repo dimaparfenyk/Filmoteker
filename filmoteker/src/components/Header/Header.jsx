@@ -24,12 +24,12 @@ export const Header = () => {
           </Logo>
 
           <HeaderNav>
-            <HeaderLink to="/">Home</HeaderLink>
-            <HeaderLink to="/library">My Library</HeaderLink>
+            <HeaderLink to="/">Домашняя</HeaderLink>
+            <HeaderLink to="/library">Фильмотека</HeaderLink>
           </HeaderNav>
         </TopHeader>
         <SearchBox>
-          <Input type="text" placeholder="Search movies..." />
+          <Input type="text" placeholder="Искать фильмы..." />
           <FiSearch />
         </SearchBox>
       </Container>
